@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* ここからheader */
+.header-image{
+    background-image: url("../images/header/hero_img.jpg");
+    background-size: cover;
+}
+
+.header-title{
+    padding: 120px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-text1{
+    font-size: x-large;
+}
+
+.header-text2{
+    font-size: large;
+    margin-top: 2em;
+}
+
+.header-list1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    border-style: solid;
+    border-color: #EFEFEF;
+}
+
+.header-list-image{
+    width: 25%;
+}
+
+.header-list2{
+    display: flex;
+    align-items: center;
+}
+
+.header-list3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-list4{
+    padding: 2%;
+}
+/* ここまでheader */
+
+/* ここからmain */
+
+/* ここからABOUT */
+#ABOUT{
+    text-align: center;
+}
+
+.about-h2{
+    font-size: x-large;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.about-p1{
+    margin-bottom: 3em;
+}
+
+.about-p2{
+    margin-bottom: 1.5em;
+}
+
+.about-p3{
+    margin-bottom: 0.5em;
+}
+
+.about-d{
+    margin-top: 3em;
+}
+
+/* ここまでABOUT */
+
+/* ここからCOURSE */
+.course-d1{
+    text-align: center;
+}
+
+.course-h2{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.course-p1{
+    margin-bottom: 1.5em;
+}
+
+.course-p2{
+    margin-bottom: 0.5em;
+}
+
+.course-p3{
+    margin-bottom: 3em;
+}
+
+.course-d0{
+    background-color: #FAFAFA;
+}
+
+.course-d2{
+    display: flex;
+    align-items: center;
+}
+
+.course-d3{
+    width: 50%;
+}
+
+.course-d4{
+    padding: 3em;
+}
+
+.course-h3{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+/* ここまでCOURSE */
+
+/* ここからNEWS */
+
+.news-d1{
+    text-align: center;
+}
+
+.news-h2{
+    font-size: x-large;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.news-p1{
+    margin-bottom: 3em;
+}
+
+.news-list{
+    display: flex;
+}
+
+.news-item{
+    width: 33.3333%;
+    margin: 10px;
+}
+
+.news-h3{
+    font-weight: bold;
+    margin-block: 20px;
+}
+
+.news-p3{
+    font-size: small;
+}
+
+.news-p2{
+    font-size: small;
+    color: gray;
+    margin-block: 10px;
+}
+
+.news-d3{
+    text-align: center;
+}
+
+.news-button{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ffd61a;
+    padding: 1em 1em; 
+}
+/* ここまでNEWS */
+
+/* ここからACCESS～ */
+#ACCESS{
+    background-color: #fafafa;
+}
+
+.access-d1{
+    text-align: center;
+}
+
+.access-h2{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.access-p1{
+    margin-bottom: 3em
+}
+
+.access-d2{
+    margin-bottom: 3em;
+}
+
+.access-d3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5em 0;
+}
+
+.access-p2{
+    width: 150px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.access-p3{
+    margin: 0 0 0 1em;
+    width: 25em;
+}
+
+.access-p4{
+    margin: 0 0 3em 1em;
+    width: 25em;
+}
+
+
+/* ここまでACCESS */
+
+/* ここからCONTACT */
+.contact-top{
+    text-align: center;
+}
+
+.contact-h2{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.contact-p1{
+    margin-bottom: 3em
+}
+
+.contact-p2{
+    margin-bottom: 0.5em;
+}
+
+.contact-p3{
+    margin-bottom: 1.5em;
+}
+
+.contact-d1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5em 0;
+}
+
+.contact-dt{
+    width: 150px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.contact-dd{
+    margin: 0 0 0 1em;
+    width: 25em;
+}
+
+.contact-i1{
+    display: inline-block;
+    width: 20em;   
+}
+
+.contact-t1{
+    display: inline-block;
+    width: 20em;
+    height: 5em;   
+}
+
+.contact-p4{
+    font-size: small;
+}
+
+.contact-input{
+    border: none;
+    padding: 1em 6em;
+    background-color: #ffd61a;
+    color: #ffffff;
+    display: block;
+    margin: 2em auto 5em;
+}
+/* ここまでCONTACT */
+
+/* ここからfooter */
+.footer-1{
+    font-size: x-small;
+    color: #ffffff;
+    text-align: center;
+    background-color: #707070;
+    padding: 2em;
+}
